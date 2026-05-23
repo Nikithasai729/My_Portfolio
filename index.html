@@ -328,6 +328,21 @@ function toggleMenu() {
     .getElementById("sidebar")
     .classList.toggle("show");
 }
+
+/* AUTO CLOSE MENU AFTER CLICK */
+
+document.querySelectorAll('.sidebar a')
+.forEach(link => {
+
+    link.addEventListener('click', () => {
+
+        document
+        .getElementById('sidebar')
+        .classList.remove('show');
+
+    });
+
+});
 </script>
 
 </body>

@@ -1,275 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ABC | Web Development Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>ABC | Web Development Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 
 <body>
 
-<!-- MOBILE MENU BUTTON -->
-<div class="mobile-menu" onclick="toggleMenu()">
-  <i class="fas fa-bars"></i>
-</div>
-
 <!-- SIDEBAR -->
 <div class="sidebar" id="sidebar">
 
-  <div class="logo">
-    <h2>ABC</h2>
-    <p>Web Developer</p>
-  </div>
+    <div class="logo">
+        <h2>ABC</h2>
+        <p>Web Developer</p>
+    </div>
 
-  <ul>
-    <li><a href="#home"><i class="fas fa-house"></i> Home</a></li>
-    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
-    <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
-    <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
-    <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
-    <li><a href="#projects"><i class="fas fa-folder"></i> Projects</a></li>
-    <li><a href="#certifications"><i class="fas fa-certificate"></i> Certifications</a></li>
-    <li><a href="#achievements"><i class="fas fa-trophy"></i> Achievements</a></li>
-    <li><a href="#languages"><i class="fas fa-language"></i> Languages</a></li>
-    <li><a href="#contact"><i class="fas fa-phone"></i> Contact</a></li>
-  </ul>
+    <ul>
+        <li><a href="#home"><i class="fas fa-house"></i> Home</a></li>
+        <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+        <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+        <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+        <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+        <li><a href="#projects"><i class="fas fa-folder"></i> Projects</a></li>
+        <li><a href="#certifications"><i class="fas fa-certificate"></i> Certifications</a></li>
+        <li><a href="#achievements"><i class="fas fa-trophy"></i> Achievements</a></li>
+        <li><a href="#languages"><i class="fas fa-language"></i> Languages</a></li>
+        <li><a href="#contact"><i class="fas fa-phone"></i> Contact</a></li>
+    </ul>
+
 </div>
 
 <!-- MAIN CONTENT -->
 <div class="main-content">
 
-  <!-- HERO -->
-  <section class="hero" id="home">
+    <!-- HERO -->
+    <section class="hero" id="home">
 
-    <div class="hero-card">
+        <div class="hero-card">
 
-      <h1>ABC</h1>
-      <h2>B.Tech CSE Student | Web Development Intern</h2>
+            <!-- TOP PROFILE -->
+            <div class="hero-top">
 
-      <div class="hero-contact">
-        <p><i class="fas fa-phone"></i> xyz</p>
-        <p><i class="fas fa-envelope"></i> xyz</p>
-        <p><i class="fas fa-location-dot"></i> Madanapalle, Andhra Pradesh</p>
-      </div>
+                <div class="profile-text">
+                    <h1>ABC</h1>
+                    <h2>B.Tech CSE Student | Web Development Intern</h2>
+                </div>
 
-      <p class="intro">
-        B.Tech Computer Science Engineering student passionate about
-        software development and web development. Interested in building
-        responsive, user-friendly websites and continuously improving
-        technical, programming, and problem-solving skills to gain
-        practical industry experience.
-      </p>
+                <!-- MENU BUTTON -->
+                <div class="profile-menu" onclick="toggleMenu()">
+                    <i class="fas fa-bars"></i>
+                </div>
 
-      <div class="hero-buttons">
-        <a href="#contact" class="btn">Contact Me</a>
-        <a href="#skills" class="btn secondary-btn">View Skills</a>
-      </div>
+            </div>
 
-    </div>
-  </section>
+            <!-- CONTACT DETAILS TOP -->
+            <div class="hero-contact">
+                <p><i class="fas fa-phone"></i> xyz</p>
+                <p><i class="fas fa-envelope"></i> xyz</p>
+                <p>
+                    <i class="fas fa-location-dot"></i>
+                    Madanapalle, Andhra Pradesh
+                </p>
+            </div>
 
-  <!-- ABOUT -->
-  <section class="section" id="about">
-    <h2>About Me</h2>
+            <!-- INTRO -->
+            <p class="intro">
+                B.Tech Computer Science Engineering student passionate
+                about software development and web development.
+                Interested in building responsive, user-friendly,
+                and modern websites while continuously improving
+                programming, technical, and problem-solving skills.
+                Seeking practical experience and opportunities to
+                contribute to innovative projects.
+            </p>
 
-    <div class="card">
-      <p>
-        I am a B.Tech Computer Science Engineering student passionate
-        about software development and web development. I enjoy building
-        modern, responsive, and user-friendly websites while continuously
-        improving my technical and problem-solving skills.
-        Seeking opportunities to gain practical experience and contribute
-        effectively to innovative projects.
-      </p>
-    </div>
-  </section>
+        </div>
 
-  <!-- EDUCATION -->
-  <section class="section" id="education">
-    <h2>Education</h2>
+    </section>
 
-    <div class="grid">
+    <!-- ABOUT -->
+    <section class="section" id="about">
 
-      <div class="card">
-        <h3>School Name 1</h3>
-        <p>10th Standard</p>
-        <p>Year: XXXX</p>
-      </div>
+        <h2>About Me</h2>
 
-      <div class="card">
-        <h3>School / College Name 2</h3>
-        <p>Intermediate</p>
-        <p>Year: XXXX</p>
-      </div>
+        <div class="card">
+            <p>
+                I am a B.Tech Computer Science Engineering student
+                passionate about software development and web development.
+                I enjoy building modern, responsive, and clean websites
+                while improving my technical and problem-solving skills.
+                Seeking opportunities to gain practical industry
+                experience and contribute effectively to real-world
+                projects.
+            </p>
+        </div>
 
-      <div class="card">
-        <h3>ABCD College</h3>
-        <p>B.Tech Computer Science Engineering</p>
-        <p>Year: XXXX</p>
-      </div>
+    </section>
 
-    </div>
-  </section>
+    <!-- EDUCATION -->
+    <section class="section" id="education">
 
-  <!-- SKILLS -->
-  <section class="section" id="skills">
-    <h2>Skills</h2>
+        <h2>Education</h2>
 
-    <div class="grid">
+        <div class="grid">
 
-      <div class="card">
-        <h3>Technical Skills</h3>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>GitHub</li>
-          <li>Web Development</li>
-        </ul>
-      </div>
+            <div class="card">
+                <h3>School Name 1</h3>
+                <p>10th Standard</p>
+                <p>Year: XXXX</p>
+            </div>
 
-      <div class="card">
-        <h3>Soft Skills</h3>
-        <ul>
-          <li>Communication</li>
-          <li>Problem Solving</li>
-          <li>Quick Learning</li>
-          <li>Team Work</li>
-        </ul>
-      </div>
+            <div class="card">
+                <h3>School / College Name 2</h3>
+                <p>Intermediate</p>
+                <p>Year: XXXX</p>
+            </div>
 
-    </div>
-  </section>
+            <div class="card">
+                <h3>ABCD College</h3>
+                <p>B.Tech Computer Science Engineering</p>
+                <p>Year: XXXX</p>
+            </div>
 
-  <!-- EXPERIENCE -->
-  <section class="section" id="experience">
-    <h2>Experience</h2>
+        </div>
 
-    <div class="card">
-      <h3>SkillDzire – Data Science & Engineering Intern</h3>
-      <p>May 2026 – Present</p>
-      <p>
-        Worked on data analysis, preprocessing, visualization,
-        and structured datasets using Python.
-      </p>
-    </div>
+    </section>
 
-    <div class="card">
-      <h3>InternPe – AI/ML Intern</h3>
-      <p>April 2026 – May 2026</p>
-      <p>
-        Worked on AI/ML projects using Python and gained
-        hands-on experience in model development.
-      </p>
-    </div>
+    <!-- SKILLS -->
+    <section class="section" id="skills">
 
-    <div class="card">
-      <h3>CodeAlpha – Machine Learning Intern</h3>
-      <p>March 2026 – April 2026</p>
-      <p>
-        Worked on ML projects involving preprocessing,
-        predictive analysis, and implementation.
-      </p>
-    </div>
-  </section>
+        <h2>Skills</h2>
 
-  <!-- PROJECTS -->
-  <section class="section" id="projects">
-    <h2>Projects</h2>
+        <div class="grid">
 
-    <div class="card">
-      <h3>File Encryption Tool</h3>
-      <p><strong>Tools:</strong> Python, Tkinter</p>
-      <p>
-        Developed a secure file encryption system
-        for protecting confidential files.
-      </p>
-      <p><strong>GitHub:</strong> xyz</p>
-    </div>
+            <div class="card">
+                <h3>Technical Skills</h3>
 
-    <div class="card">
-      <h3>Productivity Tracker Chrome Extension</h3>
-      <p><strong>Tools:</strong> JavaScript, Node.js</p>
-      <p>
-        Built a Chrome extension to monitor website
-        activity and productivity analytics.
-      </p>
-      <p><strong>GitHub:</strong> xyz</p>
-    </div>
-  </section>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>GitHub</li>
+                    <li>Web Development</li>
+                </ul>
+            </div>
 
-  <!-- CERTIFICATIONS -->
-  <section class="section" id="certifications">
-    <h2>Certifications</h2>
+            <div class="card">
+                <h3>Soft Skills</h3>
 
-    <div class="card">
-      <ul>
-        <li>Generative AI Studio – Simplilearn</li>
-        <li>Quantum-Safe Cryptography – IBM</li>
-        <li>Azure DevOps – Infosys Springboard</li>
-        <li>Internet of Things (IoT) – Elewayte</li>
-        <li>Python for Data Science – NPTEL</li>
-      </ul>
-    </div>
-  </section>
+                <ul>
+                    <li>Communication</li>
+                    <li>Problem Solving</li>
+                    <li>Quick Learning</li>
+                    <li>Team Work</li>
+                </ul>
+            </div>
 
-  <!-- ACHIEVEMENTS -->
-  <section class="section" id="achievements">
-    <h2>Achievements</h2>
+        </div>
 
-    <div class="card">
-      <ul>
-        <li>1st Prize – Art Gallery (2024)</li>
-        <li>Certificate of Excellence – Top Rank in B.Tech 3-2 Semester</li>
-      </ul>
-    </div>
-  </section>
+    </section>
 
-  <!-- LANGUAGES -->
-  <section class="section" id="languages">
-    <h2>Languages Known</h2>
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
 
-    <div class="card">
-      <ul>
-        <li>English</li>
-        <li>Telugu</li>
-        <li>Hindi (Basic)</li>
-        <li>French (Basic)</li>
-      </ul>
-    </div>
-  </section>
+        <h2>Experience</h2>
 
-  <!-- CONTACT -->
-  <section class="section" id="contact">
-    <h2>Contact Details</h2>
+        <div class="card">
+            <h3>SkillDzire – Data Science & Engineering Intern</h3>
+            <p>May 2026 – Present</p>
 
-    <div class="card contact-card">
+            <p>
+                Worked on data analysis, preprocessing,
+                visualization, structured datasets,
+                and Python workflows.
+            </p>
+        </div>
 
-      <p><i class="fas fa-phone"></i> Phone: xyz</p>
+        <div class="card">
+            <h3>InternPe – AI/ML Intern</h3>
+            <p>April 2026 – May 2026</p>
 
-      <p><i class="fas fa-envelope"></i> Email: xyz</p>
+            <p>
+                Worked on AI and machine learning projects
+                using Python and related tools.
+            </p>
+        </div>
 
-      <p><i class="fab fa-linkedin"></i> LinkedIn: xyz</p>
+        <div class="card">
+            <h3>CodeAlpha – Machine Learning Intern</h3>
+            <p>March 2026 – April 2026</p>
 
-      <p><i class="fab fa-github"></i> GitHub: xyz</p>
+            <p>
+                Worked on machine learning projects involving
+                preprocessing and predictive analysis.
+            </p>
+        </div>
 
-      <p>
-        <i class="fas fa-location-dot"></i>
-        Madanapalle, Chittoor, Andhra Pradesh
-      </p>
+    </section>
 
-    </div>
-  </section>
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="card">
+            <h3>File Encryption Tool</h3>
+
+            <p>
+                <strong>Tools:</strong>
+                Python, Cryptography, Tkinter
+            </p>
+
+            <p>
+                Developed a secure file encryption system
+                for protecting confidential files.
+            </p>
+
+            <p><strong>GitHub:</strong> xyz</p>
+        </div>
+
+        <div class="card">
+            <h3>Productivity Tracker Chrome Extension</h3>
+
+            <p>
+                <strong>Tools:</strong>
+                JavaScript, Node.js, MongoDB
+            </p>
+
+            <p>
+                Developed a Chrome extension to monitor
+                website usage and productivity analytics.
+            </p>
+
+            <p><strong>GitHub:</strong> xyz</p>
+        </div>
+
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section" id="certifications">
+
+        <h2>Certifications</h2>
+
+        <div class="card">
+            <ul>
+                <li>Generative AI Studio – Simplilearn</li>
+                <li>Quantum-Safe Cryptography – IBM</li>
+                <li>Azure DevOps – Infosys Springboard</li>
+                <li>Internet of Things (IoT) – Elewayte</li>
+                <li>Python for Data Science – NPTEL</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section" id="achievements">
+
+        <h2>Achievements</h2>
+
+        <div class="card">
+            <ul>
+                <li>1st Prize – Art Gallery (2024)</li>
+                <li>
+                    Certificate of Excellence –
+                    Top Rank in B.Tech 3-2 Semester
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- LANGUAGES -->
+    <section class="section" id="languages">
+
+        <h2>Languages Known</h2>
+
+        <div class="card">
+            <ul>
+                <li>English</li>
+                <li>Telugu</li>
+                <li>Hindi (Basic)</li>
+                <li>French (Basic)</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+
+        <h2>Contact Details</h2>
+
+        <div class="card contact-card">
+
+            <p><i class="fas fa-phone"></i> Phone: xyz</p>
+
+            <p><i class="fas fa-envelope"></i> Email: xyz</p>
+
+            <p><i class="fab fa-linkedin"></i> LinkedIn: xyz</p>
+
+            <p><i class="fab fa-github"></i> GitHub: xyz</p>
+
+            <p>
+                <i class="fas fa-location-dot"></i>
+                Madanapalle, Chittoor,
+                Andhra Pradesh
+            </p>
+
+        </div>
+
+    </section>
 
 </div>
 
 <script>
 function toggleMenu() {
-  document.getElementById("sidebar").classList.toggle("show");
+    document
+    .getElementById("sidebar")
+    .classList.toggle("show");
 }
 </script>
 
